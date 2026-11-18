@@ -1,0 +1,112 @@
+
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-size: 23px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #4da3ff);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0 25px;
+}
+
+/* DASHBOARD CARDS */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* REGISTRATION FORM */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.form-container h2 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    padding: 11px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .hero {
+        padding: 55px 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .form-container h2 {
+        font-size: 22px;
+    }
+}
